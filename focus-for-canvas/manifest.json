@@ -1,0 +1,20 @@
+{
+	"name": "Focus for Canvas - Remove the blur",
+	"short_name": "Focus for Canvas",
+	"author": "Everest Oreizy",
+	"version": "4.5",
+	"manifest_version": 2,
+	"description": "Removes the annoying blur (and the stupid message) from your grades in Canvas.",
+	"permissions": [
+		"activeTab",
+		"tabs",
+		"https://*.instructure.com/*"
+	],
+	"browser_action" : {
+		"default_title" : "Focus for Canvas"
+	},
+	"background": {
+		"scripts": ["script2.js"],
+		"persistent": false
+	}
+}
